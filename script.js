@@ -9,6 +9,13 @@ function setup() {
 
   // Kleur de achtergrond blauw, zodat je het kunt zien
   background('blue');
+
+    // erects a rectangle
+    fill(255,255,255)
+    rect(200,150,200,300);
+    rect(550,150,200,300);
+    rect(900,150,200,300);
+
 }
 
 
@@ -18,9 +25,7 @@ function setup() {
  * uitgevoerd door de p5 library, nadat de setup functie klaar is
  */
 function draw() {
-  // stel vulkleur in
-  fill(100, 100, 255);
 
-  // teken een cirkel
-  ellipse(50,50,80,80);
+
+
 }
